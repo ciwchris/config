@@ -1,0 +1,122 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "Hack, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "all",
+    "editor.lineNumbers": "relative",
+    "explorer.openEditors.visible": 0,
+    "git.decorations.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.showTabs": false,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 100,
+    "vim.enableNeovim": true,
+    "vim.autoindent": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.surround": true,
+    "vim.leader": "<space>",
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-a>": false
+    },
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors": {
+        "normal": "#005f5f",
+        "insert": "#5f0000",
+        "visual": "#5f00af",
+        "visualline": "#005f87",
+        "visualblock": "#86592d",
+        "replace": "#000000"
+    },
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "s"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.view.explorer",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "b",
+                "d"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "b",
+                "d"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closePanel",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "e"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.marker.next",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "E"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.marker.prev",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "csharp.referencesCodeLens.enabled": false
+}
