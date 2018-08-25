@@ -11,7 +11,8 @@
     "workbench.editor.showTabs": false,
     "prettier.tabWidth": 4,
     "prettier.printWidth": 100,
-    "vim.enableNeovim": true,
+    "prettier.singleQuote": true,
+    "vim.enableNeovim": false,
     "vim.autoindent": true,
     "vim.hlsearch": true,
     "vim.incsearch": true,
@@ -21,17 +22,7 @@
     "vim.handleKeys": {
         "<C-a>": false
     },
-    "vim.disableAnnoyingNeovimMessage": true,
-    "vim.statusBarColorControl": true,
-    "vim.statusBarColors": {
-        "normal": "#005f5f",
-        "insert": "#5f0000",
-        "visual": "#5f00af",
-        "visualline": "#005f87",
-        "visualblock": "#86592d",
-        "replace": "#000000"
-    },
-    "vim.otherModesKeyBindingsNonRecursive": [
+    "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "g",
@@ -76,7 +67,7 @@
             "before": [
                 "leader",
                 "b",
-                "d"
+                "l"
             ],
             "after": [],
             "commands": [
@@ -114,9 +105,18 @@
         }
     ],
     "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
+        "statusBar.background": "#005f87",
+        "statusBar.noFolderBackground": "#005f87",
+        "statusBar.debuggingBackground": "#005f87"
     },
-    "csharp.referencesCodeLens.enabled": false
+    "csharp.referencesCodeLens.enabled": false,
+    "update.channel": "none",
+    "window.zoomLevel": 0,
+    "workbench.statusBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false
 }
